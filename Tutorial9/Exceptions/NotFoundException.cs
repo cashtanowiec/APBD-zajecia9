@@ -2,7 +2,7 @@
 
 public class NotFoundException : Exception
 {
-    public NotFoundException()
+    public NotFoundException() : base("Record has not been found in the database!")
     {
         
     }

@@ -5,4 +5,5 @@ namespace Tutorial9.Services;
 public interface IDbService
 {
     Task<int> PostData(PostDTO post);
+    Task<int> PostDataWithProcedure(PostDTO post);
 }
